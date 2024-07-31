@@ -1,0 +1,15 @@
+.back{
+    background-color: #1abc9c;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ .w_t{
+    width: 80px !important;
+    height: 4px !important;
+    background-color: white;
+    display: inline-block;
+}
