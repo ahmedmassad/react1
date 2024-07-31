@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {  createHashRouter, RouterProvider } from "react-router-dom";
 
 
 import About from "./compont/About/About.jsx";
@@ -9,7 +9,7 @@ import Home from "./compont/Home/Home.jsx";
 
 function App() {
 
-const myDataWap = createBrowserRouter([
+const myDataWap = createHashRouter([
  { path:'/',element:<Layout /> , children:[
   {path:'/contact',element:<Contact />},
   {path:'/home',element:<Home />},
